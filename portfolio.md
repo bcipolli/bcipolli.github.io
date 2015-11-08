@@ -11,10 +11,10 @@ permalink: /portfolio/
     <div class="thumbnail">
         <a href="{{ project.redirect }}" target="_blank">
         {% if project.img %}
-        <img class="thumbnail" src="{{ project.img }}"/>
+        <img class="thumbnail" src="{{ project.img | prepend:site.baseurl }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
-        {% endif %}    
+        {% endif %}
         <span>
             <h1>{{ project.title }}</h1>
             <br/>
@@ -27,12 +27,12 @@ permalink: /portfolio/
 
 <div class="project ">
     <div class="thumbnail">
-        <a href="{{ site.baseurl }}{{ project.url }}">
+        <a href="{{ project.url | prepend:site.baseurl }}">
         {% if project.img %}
-        <img class="thumbnail" src="{{ project.img }}"/>
+        <img class="thumbnail" src="{{ project.img | prepend:site.baseurl }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
-        {% endif %}    
+        {% endif %}
         <span>
             <h1>{{ project.title }}</h1>
             <br/>
