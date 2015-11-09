@@ -1,18 +1,23 @@
 ---
 layout: page
-permalink: /news/
-title: news
-description: Recent news
-weight: 2
+permalink: /
+title: home
+description: Recent news &amp; tweets from San Diego.
+weight: 0
 ---
 
 
-<div style="width: 70%; float: left">
+<div style="width: 67%; float: left; padding-right: 2%">
 <ul class="post-list">
 {% for news_item in site.news reversed %}
     <li>
-        <h2><a class="poem-title" href="{{ news_item.url | prepend: site.baseurl }}">{{ news_item.title }}</a></h2>
-        <p class="post-meta">{{ news_item.date | date: '%B %-d, %Y — %H:%M' }}</p>
+        <h2>
+        <a class="news-title"{% if news_item.redirect %} href="{{ news_item.redirect }}"{% endif %}>
+        {{ news_item.title }}
+        </a>
+        </h2>
+        <p class="post-meta">{{ news_item.date | date: '%B %-d, %Y' }}</p>
+        <p>{{ news_item.description }}</p>
       </li>
 {% endfor %}
 </ul>
