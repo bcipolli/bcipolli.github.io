@@ -15,20 +15,20 @@ To give your project a background in the portfolio page, just add the img tag to
 	layout: post
 	title: Project
 	description: a project with a background image
-	img: /img/12.jpg
+	img: /img/projects/12.jpg
 	---
 
 
 <div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/1.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/2.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/3.jpg" alt="" title="example image"/>
+	<img class="col one" src="{{ site.baseurl }}/img/projects/1.jpg" alt="" title="example image"/>
+	<img class="col one" src="{{ site.baseurl }}/img/projects/2.jpg" alt="" title="example image"/>
+	<img class="col one" src="{{ site.baseurl }}/img/projects/3.jpg" alt="" title="example image"/>
 </div>
 <div class="col three caption">
 	Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/5.jpg" alt="" title="example image"/>
+	<img class="col three" src="{{ site.baseurl }}/img/projects/5.jpg" alt="" title="example image"/>
 </div>
 <div class="col three caption">
 	This image can also have a caption. It's like magic.
@@ -38,8 +38,8 @@ You can also put regular text between your rows of images. Say you wanted to wri
 
 
 <div class="img_row">
-	<img class="col two" src="{{ site.baseurl }}/img/6.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/11.jpg" alt="" title="example image"/>
+	<img class="col two" src="{{ site.baseurl }}/img/projects/6.jpg" alt="" title="example image"/>
+	<img class="col one" src="{{ site.baseurl }}/img/projects/11.jpg" alt="" title="example image"/>
 </div>
 <div class="col three caption">
 	You can also have artistically styled 2/3 + 1/3 images, like these.
@@ -52,6 +52,6 @@ You can also put regular text between your rows of images. Say you wanted to wri
 The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above:
 
 	<div class="img_row">
-	  <img class="col two" src="/img/6.jpg"/>
-	  <img class="col one" src="/img/11.jpg"/>
+	  <img class="col two" src="/img/projects/6.jpg"/>
+	  <img class="col one" src="/img/projects/11.jpg"/>
 	</div>
