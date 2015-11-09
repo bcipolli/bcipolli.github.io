@@ -1,6 +1,7 @@
 ---
 layout: page
-title: projects
+title: research
+description: Research and software projects that I'm working on.
 permalink: /projects/
 weight: 3
 ---
@@ -11,7 +12,7 @@ weight: 3
 <div class="project">
     <div class="thumbnail">
         {% if project.redirect %}
-        <a href="{{ project_url }}" target="_blank">
+        <a href="{{ project.redirect }}" target="_blank">
         {% else %}
         <a href="{{ project.url | prepend:site.baseurl }}">
         {% endif %}
