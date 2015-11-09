@@ -13,6 +13,15 @@ dl, dd, ol, ul, figure {
     filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
+.page-link {
+    padding: 5px;
+    margin: 0px;
+}
+.selected {
+    background-color:#fee;
+    border-radius: 5px;
+}
+
 /** Variables **********************************************/
 $base-font-family:              Helvetica, sans-serif;
 $base-line-height:              1.5em;
