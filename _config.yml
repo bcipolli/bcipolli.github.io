@@ -23,8 +23,6 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:path
-  poetry:
+  news:
     output: true
-    permalink: /poetry/:path
-
-
+    permalink: /news/:path
