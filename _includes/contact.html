@@ -1,13 +1,19 @@
 <br/>
 <hr/>
 <br/>
+
 <span class="contacticon center">
     {% if site.email %}<a href="mailto:{{ site.email }}"><i class="fa fa-envelope-square"></i></a>{% endif %}
     {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fa fa-github-square"></i></a>{% endif %}
     {% if site.linkedin_url %}<a href="{{ site.linkedin_url }}" target="_blank"><i class="fa fa-linkedin-square"></i></a>{% endif %}
     {% if site.tumblr_username %}<a href="http://{{ site.tumblr_username }}.tumblr.com/" target="_blank"><i class="fa fa-tumblr-square"></i></a>{% endif %}
     {% if site.twitter_username %}<a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fa fa-twitter-square"></i></a>{% endif %}
+    {% if site.facebook_username %}<a href="https://facebook.com/{{ site.facebook_username }}" target="_blank"><i class="fa fa-facebook-square"></i></a>{% endif %}
+    {% if site.researchgate_username %}<a href="https://www.researchgate.net/profile/{{ site.researchgate_username }}" target="_blank"><img src="{{ '/img/researchgate-logo.png' | prepend:site.baseurl }}" class="fa" style="width:52px;border-radius:10px; vertical-align:middle; margin-top:-10px;" /></a>{% endif %}
+    {% if site.redbubble_username %}<a href="https://www.redbubble.com/profile/{{ site.redbubble_username }}" target="_blank"><img src="{{ '/img/rb-logo.jpg' | prepend:site.baseurl }}" class="fa" style="width:52px;border-radius:10px; vertical-align:middle; margin-top:-10px;" /></a>{% endif %}
 </span>
+
+
 
 <div class="col three caption">
     You can even add a little note about which of these is the best way to reach you.
