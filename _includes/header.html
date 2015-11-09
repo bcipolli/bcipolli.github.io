@@ -1,6 +1,13 @@
 <header class="site-header">
 
   <div class="wrapper">
+    <div class="site-title">
+      <a href="{{ site.baseurl }}">
+        <img class="site-pic" src="{{ '/img/prof_pic.jpg' | prepend:site.baseurl }}">
+        {{ site.title }}
+      </a>
+      <div class="site-tag">{{ site.tagline }}</div>
+    </div>
 
     <nav class="site-nav">
       <div class="trigger">
@@ -14,7 +21,6 @@
 
       </div>
     </nav>
-
   </div>
 
 </header>
