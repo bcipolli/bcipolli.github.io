@@ -2,6 +2,7 @@
 layout: page
 title: about
 permalink: /about/
+weight: 5
 ---
 
 <img class="col one right" src="{{ '/img/prof_pic.jpg' | prepend:site.baseurl }}">
