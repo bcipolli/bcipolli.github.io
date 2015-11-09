@@ -264,7 +264,9 @@ height: 100%;
 float: left;
 object-fit: cover;
 box-sizing:border-box;
-padding: $img_spacing;
+margin: $img_spacing - 5;
+padding: 5px;
+border-radius: 15px;
 }
 .right{
 float: right;
