@@ -42,7 +42,9 @@ and <a href="http://mrquickowl.tumblr.com/">my own blog at Tumblr</a>.
           {% if post_image != '' %}
           <img style="width: 50px; border-radius: 5px; vertical-align: middle; margin-bottom: 5px;" src="{{ post_image }}" />
           {% endif %}
-          {{ post.title }}</a>
+          {% if post.is_draft %}[draft]{% endif %}
+          {{ post.title }}
+        </a>
         </h2>
         <p class="post-meta">
           {{ post.date | date: '%B %-d, %Y' }}
