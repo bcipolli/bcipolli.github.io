@@ -38,7 +38,17 @@ collections:
 
 defaults:
   - scope:
-      path: ""
       type: projects
     values:
       layout: project
+      class: project
+  - scope:
+      type: news
+    values:
+      layout: post
+      class: news
+  - scope:
+      type: posts
+    values:
+      layout: post
+      class: blog

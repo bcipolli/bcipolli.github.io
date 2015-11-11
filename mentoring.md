@@ -1,5 +1,6 @@
 ---
 layout: page
+class: mentoring
 nav_title: mentoring
 title: mentoring
 permalink: /mentoring/
