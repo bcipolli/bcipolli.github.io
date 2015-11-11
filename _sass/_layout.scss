@@ -24,28 +24,41 @@ img.bg {
     z-index: -1;
 }
 
+.site-logo {
+    font-size: 20px;
+    line-height: $nav-height;
+    letter-spacing: 0px;
+    margin-bottom: 0;
+    float: left;
+    height: 65px;
+    width: 250px;
+}
+
 .site-title {
-font-size: 20px;
-line-height: $nav-height;
-letter-spacing: 0px;
-margin-bottom: 0;
-float: left;
+    position: relative;
+    top: -5px;
+    left: 15px;
+    float: left;
 }
 
 .site-pic {
-    width: 55px;
-    margin-top: 4px;
+    width: 61px;
+    margin-top: 2px;
     text-align: right;
     vertical-align: middle;
-    border-radius: 15px;
+    border-radius: 5px;
+    float: left;
 }
 
 .site-tag {
     font-style: italic;
     position: relative;
-    top: -38px;
-    left: 80px;
+    top: -20px;
+    left: 30px;
+    line-height: 16px;
     font-size: 12px;
+    height: 25px;
+    float: left;
 }
 
 .site-nav {
@@ -66,10 +79,18 @@ text-align: right;
 display: block;
 padding-bottom: 5px;
         }
-.page-link {
-display: line;
-        }
     }
+}
+
+.page-link {
+    display: line;
+    padding: 8px;
+    margin: 0px -2px 0px -2px;
+}
+
+.selected {
+    background-color:#fdd;
+    border-radius: 5px;
 }
 
 .header-bar{
@@ -108,20 +129,7 @@ bottom:0px;
 height:25px;
 width:100%;
 }
-/**
- * Pagination   **********************************************************
- */
-.pagination{
-max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
-text-align: center;
-width: 100%;
-}
-.paginationicon {
-font-size: 50px;
-a {
-color: $theme-color;
-    }
-}
+
 /**
  * Page content   **********************************************************
  */
@@ -146,8 +154,9 @@ margin: 10px;
 .center{
 text-align: center;
 }
+
 /**
- * Posts  **********************************************************
+ * Page content  **********************************************************
  */
 .post-header {
 margin-bottom: $vertical-spacing-unit;
@@ -190,88 +199,11 @@ display: block;
 font-size: 42px;
 }
 
-/** News formatting ********************************************/
-.news-title {
-font-size: 24px;
-letter-spacing: -1px;
-line-height: 1;
-@include media-query($on-laptop) {
-font-size: 16px;
-    }
-}
-
-
 /**
- * Portfolio grid **********************************************************
-*/
-// Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
-.clearfix:before,
-.clearfix:after {
-content: " ";
-display: table;
-}
-.clearfix:after {
-clear: both;
-}
-.project {
-width: 33.33%;
-height: 250px;
-float: left;
-vertical-align: middle;
-box-sizing: border-box;
-padding: 10px;
-}
-.thumbnail{
-width: 100%;
-height: 230px;
-overflow: hidden;
-border-radius: 3px;
-}
-.thumbnail img{
-width: 500px;
-height: auto;
-position: relative;
-left: -25%;
-top: -5%;
-}
-.thumbnail a{
-float: left;
-position: relative;
-width: 100%;
-height: 230px;
-}
-.thumbnail a span {
-display: block;
-position: absolute;
-top: 0;
-left: 0;
-bottom: 0;
-right: 0;
-color: $grey-color-light;
-padding: 40px;
-text-align: center;
-opacity: 0.45;
-background: rgba(1,1,1.0,0.2);
-}
-.thumbnail a:hover span {
-background: rgba(0,0,0.5,0.9);
-opacity: 0.75;
-}
-/**
- * Portfolio pages **********************************************************
-*/
-.blankbox{
-background: $theme-color;
-}
-.img_row{
-height: $img_height;
-width: 100%;
-overflow: hidden;
-box-sizing:border-box;
-padding: $img_spacing;
-}
-.col{
+ * Images  **********************************************************
+ */
+
+.col {
 width: 100%;
 height: 100%;
 float: left;

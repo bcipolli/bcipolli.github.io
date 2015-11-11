@@ -1,11 +1,11 @@
 <header class="site-header">
   <div class="wrapper">
-    <div class="site-title">
+    <div class="site-logo">
       <a href="{{ site.baseurl }}/">
         <img class="site-pic" src="{{ '/img/prof_pic.jpg' | prepend:site.baseurl }}">
-        {{ site.title }}
+        <div class="site-title">{{ site.title }}</div>
+        <div class="site-tag">{{ site.tagline }}</div>
       </a>
-      <div class="site-tag">{{ site.tagline }}</div>
     </div>
 
     <nav class="site-nav">
