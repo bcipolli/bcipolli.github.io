@@ -1,7 +1,8 @@
 ---
 layout: publications-list
-title: posters
+document-class: publications
+title: Conference Posters
 pub-type: poster
 permalink: /publications/posters/
+weight: 2
 ---
-

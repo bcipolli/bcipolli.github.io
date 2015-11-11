@@ -35,25 +35,23 @@ collections:
   news:
     output: true
     permalink: /news/:path
+  publication-types:
+    output: true
+    permalink: /publications/:path
 
 defaults:
   - scope:
       type: projects
     values:
       layout: project
-      class: projects
-  - scope:
-      type: news
-    values:
-      layout: post
-      class: news
+      document-class: projects
   - scope:
       type: posts
     values:
       layout: post
-      class: blog
+      document-class: blog
   - scope:
       type: publications
     values:
       layout: publications-list
-      class: projects
+      document-class: projects

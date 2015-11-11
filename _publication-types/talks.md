@@ -1,7 +1,9 @@
 ---
 layout: publications-list
-title: talks
+document-class: publications
+title: Public Talks
 pub-type: talk
 permalink: /publications/talks/
+weight: 5
 ---
 

@@ -1,0 +1,26 @@
+<!-- make sure to set 'posts' before including this! -->
+
+<ul class="post-list">
+
+{% for post in posts %}
+    {% if page.pub-type == 'all' %}
+        {% assign apost="1" %}
+        {% include post-listing.html %}
+    {% elsif post.publication-class contains page.pub-type %}
+        {% assign apost="1" %}
+        {% include post-listing.html %}
+    {% elsif post.publication-class == '' %}
+        ERROR (no post class): {{ post.title }}
+    {% endif %}
+{% endfor %}
+</ul>
+
+{% if apost %}
+    {% if paginator.posts %}
+        {% include paginator-nav.html %}
+    {% endif %}
+{% else %}
+    <div style="width:100%; text-align: center; margin-top: 100px;">
+        [content to come...]
+    </div>
+{% endif %}

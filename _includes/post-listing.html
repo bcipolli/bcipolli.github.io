@@ -30,7 +30,7 @@
             </h2>
             <p class="post-meta">
               {{ post.date | date: '%B %-d, %Y' }}
-              {% if post.redirect %}
+              {% if post.redirect and post_location != '' %}
               -- posted to <a href="{{ post.redirect }}">{{ post_location | truncate:55,'...'}}</a>
               {% endif %}
             </p>

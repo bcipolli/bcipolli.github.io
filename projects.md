@@ -1,6 +1,6 @@
 ---
 layout: page
-class: projects
+document-class: projects
 nav_title: projects
 title: projects
 description: Research and software projects that I'm working on.
@@ -24,7 +24,7 @@ weight: 3
         <div class="thumbnail blankbox"></div>
         {% endif %}
         <span>
-            <h1>{{ project.title }}</h1>
+            <h1>{{ project.title | downcase }}</h1>
             <br/>
             <p>{{ project.description }}</p>
         </span>

@@ -1,8 +1,10 @@
 ---
 layout: publications-list
-title: blog
-pub_type: blog
+document-class: publications
+title: Blog Posts
+pub-type: blog
 permalink: /publications/blog/
+weight: 3
 ---
 
 <p>

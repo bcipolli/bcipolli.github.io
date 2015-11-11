@@ -2,6 +2,8 @@
 layout: page
 permalink: /
 nav_title: home
+pub-type: news
+document-class: news
 title: news
 description: Recent news &amp; tweets from San Diego.
 weight: 0
@@ -9,19 +11,8 @@ weight: 0
 
 
 <div style="width: 67%; float: left; padding-right: 2%">
-<ul class="post-list">
-{% for news_item in site.news reversed %}
-    <li>
-        <h2>
-        <a class="news-title"{% if news_item.redirect %} href="{{ news_item.redirect }}"{% endif %}>
-        {{ news_item.title }}
-        </a>
-        </h2>
-        <p class="post-meta">{{ news_item.date | date: '%B %-d, %Y' }}</p>
-        <p>{{ news_item.description }}</p>
-      </li>
-{% endfor %}
-</ul>
+{% assign posts=site.news|sort:"date"|reverse %}
+{% include publications-list.html %}
 </div>
 
 <div style="width:30%;float: left; position: relative; top:-100px;">

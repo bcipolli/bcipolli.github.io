@@ -1,5 +1,5 @@
 ---
-class: poster
+publication-class: poster
 title: Exploring the anatomy and genetics of cortical asymmetries in surface area and thickness
 date:   2015-10-27
 description: Most papers explore asymmetries one-by-one. Here we explore how asymmetries inter-relate.

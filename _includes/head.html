@@ -9,8 +9,8 @@
     <link rel="canonical" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
 
     <link rel="stylesheet" href="{{ '/css/main.css' | prepend:site.baseurl }}">
-    {% if page.class %}
-    <link rel="stylesheet" href="{{ '/css' | prepend: site.baseurl }}/{{ page.class }}.css">
+    {% if page.document-class %}
+    <link rel="stylesheet" href="{{ '/css' | prepend: site.baseurl }}/{{ page.document-class }}.css">
     {% endif %}
     <link rel="stylesheet" href="{{ '/css/font-awesome.min.css' | prepend: site.baseurl }}">
 </head>

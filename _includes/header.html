@@ -3,7 +3,7 @@
     <div class="site-logo">
       <a href="{{ site.baseurl }}/">
         <img class="site-pic" src="{{ '/img/prof_pic.jpg' | prepend:site.baseurl }}">
-        <div class="site-title">{{ site.title }}</div>
+        <div class="site-title">{{ site.title | downcase }}</div>
         <div class="site-tag">{{ site.tagline }}</div>
       </a>
     </div>
@@ -12,14 +12,10 @@
       <div class="trigger">
         {% assign sorted_pages = site.pages | sort:"weight" %}
         {% assign page_url=page.url|replace:'index.html','' %}
-
         {% for pg in sorted_pages %}
           {% assign pg_url=pg.url|replace:'index.html','' %}
-
           {% if pg.url contains '/page' %}
-
           {% elsif pg.nav_title %}
-
             {% assign class="" %}
             {% if pg_url == '/' %}
               {% if pg_url == page_url %}
@@ -28,11 +24,9 @@
             {% elsif page_url contains pg_url %}
               {% assign class=" selected" %}
             {% endif %}
-
             <a class="page-link{{ class }}" href="{{ pg.url | replace:'index.html','' | prepend: site.baseurl }}">{{ pg.nav_title }}</a>
           {% endif %}
         {% endfor %}
-
       </div>
     </nav>
   </div>
