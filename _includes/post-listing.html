@@ -1,0 +1,38 @@
+            {% if post.redirect contains 'neuwritesd' %}
+              {% assign post_image = '/img/blog/neuwritesd-logo.jpg' | prepend:site.baseurl %}
+              {% assign post_location = 'NeuWriteSD' %}
+            {% elsif post.redirect contains 'tumblr' %}
+              {% assign post_image = '/img/blog/tumblr-logo.png' | prepend:site.baseurl %}
+              {% assign post_location = 'Tumblr' %}
+            {% elsif post.redirect contains 'plos' %}
+              {% assign post_image = '/img/blog/plos-logo.png' | prepend:site.baseurl %}
+              {% assign post_location = 'PLOS Neuro' %}
+            {% else %}
+              {% assign post_image = '' %}
+              {% assign post_location = '' %}
+            {% endif %}
+
+          <li>
+            <hr/>
+            <br/>
+            <h2>
+            {% if post.redirect %}
+            <a class="post-title" href="{{ post.redirect }}" target="_blank">
+            {% else %}
+            <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">
+            {% endif %}
+              {% if post_image != '' %}
+              <img style="width: 50px; border-radius: 5px; vertical-align: middle; margin-bottom: 5px;" src="{{ post_image }}" />
+              {% endif %}
+              {% if post.is_draft %}[draft]{% endif %}
+              {{ post.title }}
+            </a>
+            </h2>
+            <p class="post-meta">
+              {{ post.date | date: '%B %-d, %Y' }}
+              {% if post.redirect %}
+              -- posted to <a href="{{ post.redirect }}">{{ post_location | truncate:55,'...'}}</a>
+              {% endif %}
+            </p>
+            <p>{{ post.description }}</p>
+          </li>

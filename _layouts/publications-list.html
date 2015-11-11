@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<style>
+.nav-item {
+    float: left;
+    width: 120px;
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 20px;
+    height: 40px;
+    font-size: 14px;
+}
+.nav-bar {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 15px;
+    margin-top: -25px;
+}
+</style>
+
+<div class="nav-bar clearfix">
+    <div class='nav-item'><a href="{{ '/publications/papers/' | prepend: site.baseurl }}">Peer-reviewed<br/>publications</a></div>
+    <div class='nav-item'><a href="{{ '/publications/posters/'' | prepend: site.baseurl }}">Conference<br/>Posters</a></div>
+    <div class='nav-item'><a href="{{ '/publications/blog/' | prepend: site.baseurl }}">Blog<br/>posts</a></div>
+    <div class='nav-item'><a href="{{ '/publications/software/' | prepend: site.baseurl }}">Open-Source<br/>Code</a></div>
+    <div class='nav-item'><a href="{{ '/publications/talks/' | prepend: site.baseurl }}">Public<br/>Talks</div>
+</div>
+
+{% if content != '' %}
+    <hr />
+    <br />
+
+    {{ content }}
+{% endif %}
+
+<ul class="post-list">
+{% if paginator.posts %}
+    {% for post in paginator.posts %}
+        {% include post-listing.html %}
+    {% endfor %}
+
+{% else %}
+    {% for post in site.posts %}
+        {% if page.pub_type == post.class %}
+            {% include post-listing.html %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+</ul>
+
+{% if paginator.posts %}
+    {% include paginator-nav.html %}
+{% endif %}
