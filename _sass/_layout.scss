@@ -21,7 +21,7 @@ img.bg {
     top: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.1;
+    opacity: 0.21;
     z-index: -1;
 }
 
@@ -87,11 +87,12 @@ img.bg {
     display: line;
     padding: 8px;
     margin: 0px -2px 0px -2px;
+    border-radius: 5px;
+    opacity: 0.75;
 }
 
 .selected {
-    background-color:#fdd;
-    border-radius: 5px;
+    background-color:#ffc;
 }
 
 .header-bar{
@@ -160,44 +161,49 @@ text-align: center;
  * Page content  **********************************************************
  */
 .post-header {
-margin-bottom: $vertical-spacing-unit;
+    margin-bottom: $vertical-spacing-unit;
 }
 .post-title {
     font-size: 32px;
     letter-spacing: -1px;
-    line-height: 1;
+    line-height: 1.1;
     @include media-query($on-laptop) {
         font-size: 28px;
     }
 }
 .post-content {
-h2 {
-font-size: 32px;
-@include media-query($on-laptop) {
-font-size: 28px;
+    h2 {
+        font-size: 32px;
+    line-height: 1.1;
+        @include media-query($on-laptop) {
+            font-size: 28px;
         }
     }
-h3 {
-font-size: 30px;
-@include media-query($on-laptop) {
-font-size: 22px;
+    h3 {
+        font-size: 30px;
+        line-height: 1.1;
+        @include media-query($on-laptop) {
+            font-size: 22px;
         }
     }
-h4 {
-font-size: 20px;
-@include media-query($on-laptop) {
-font-size: 18px;
+    h4 {
+        font-size: 20px;
+        line-height: 1.1;
+        @include media-query($on-laptop) {
+            font-size: 18px;
         }
     }
 }
+
 .post-meta {
-font-size: $small-font-size;
-color: $grey-color;
-margin-bottom: 0px;
+    font-size: $small-font-size;
+    color: $grey-color;
+    margin-bottom: 0px;
 }
 .post-link {
-display: block;
-font-size: 42px;
+    display: block;
+    font-size: 42px;
+    line-height: 1.1;
 }
 
 /**

@@ -30,5 +30,10 @@
       </div>
     </nav>
   </div>
-  <img class="bg" src="{{ '/img/bgs/airplane.jpg' | prepend:site.baseurl }}">
+  {% if page.header-bg %}
+    {% assign header_bg=page.header-bg %}
+  {% else %}
+    {% assign header_bg='/img/bgs/airplane.jpg' %}
+  {% endif %}
+  <img class="bg" src="{{ header_bg | prepend:site.baseurl }}">
 </header>
