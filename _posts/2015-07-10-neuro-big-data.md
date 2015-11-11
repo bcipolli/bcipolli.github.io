@@ -1,4 +1,5 @@
 ---
+class: blog
 title:  Got a computer? We have data. Let's do neuroscience!
 date:   2015-07-10
 description: An introduction to public data and open source in neuroimaging.

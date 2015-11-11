@@ -1,4 +1,5 @@
 ---
+class: blog
 title:  Why I Love SfN
 date:   2015-10-18
 description: Five things that inspire me at the Society for Neuroscience conference.
