@@ -1,7 +1,8 @@
 ---
 layout: page
 permalink: /
-title: home
+nav_title: home
+title: news
 description: Recent news &amp; tweets from San Diego.
 weight: 0
 ---

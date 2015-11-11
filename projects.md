@@ -1,6 +1,7 @@
 ---
 layout: page
-title: research
+nav_title: projects
+title: projects
 description: Research and software projects that I'm working on.
 permalink: /projects/
 weight: 3

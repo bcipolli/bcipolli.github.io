@@ -1,5 +1,6 @@
 ---
 layout: page
+nav_title: mentoring
 title: mentoring
 permalink: /mentoring/
 weight: 5

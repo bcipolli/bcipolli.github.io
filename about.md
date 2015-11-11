@@ -1,5 +1,6 @@
 ---
 layout: page
+nav_title: about
 title: about
 permalink: /about/
 weight: 6

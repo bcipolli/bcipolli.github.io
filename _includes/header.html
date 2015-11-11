@@ -12,9 +12,9 @@
       <div class="trigger">
         {% assign sorted_pages = site.pages | sort:"weight" %}
         {% for pg in sorted_pages %}
-          {% if pg.url contains '/page' %}
-          {% else %}
-          <a class="page-link{% if page.url == pg.url %} selected{% endif %}" href="{{ pg.url | replace:'index.html','' | prepend: site.baseurl }}">{{ pg.title }}</a>
+          {% if pg.url contains '/page' %} {* pagination *}
+          {% elsif pg.nav_title %}
+          <a class="page-link{% if page.url == pg.url %} selected{% endif %}" href="{{ pg.url | replace:'index.html','' | prepend: site.baseurl }}">{{ pg.nav_title }}</a>
           {% endif %}
         {% endfor %}
 
