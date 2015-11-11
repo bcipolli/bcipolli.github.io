@@ -24,7 +24,7 @@ highlighter: pygments
 
 # Pagination
 paginate: 5
-paginate_path: "/blog/page:num"
+paginate_path: "/publications/page:num"
 
 
 # blog, code, pubs, projects, mentoring, about,
@@ -41,7 +41,7 @@ defaults:
       type: projects
     values:
       layout: project
-      class: project
+      class: projects
   - scope:
       type: news
     values:
@@ -52,3 +52,8 @@ defaults:
     values:
       layout: post
       class: blog
+  - scope:
+      type: publications
+    values:
+      layout: publications-list
+      class: projects
