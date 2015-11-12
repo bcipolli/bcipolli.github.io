@@ -5,13 +5,12 @@ nav_title: projects
 title: projects
 description: Research and software projects that I'm working on.
 permalink: /projects/
-weight: 3
+weight: 2
 ---
 
 {% assign sorted_projects = site.projects | sort:"weight" %}
 {% for project in sorted_projects %}
     {% if project.visible != false %}
-
 <div class="project">
     <div class="thumbnail">
         {% if project.redirect %}
