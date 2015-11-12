@@ -10,6 +10,7 @@ weight: 3
 
 {% assign sorted_projects = site.projects | sort:"weight" %}
 {% for project in sorted_projects %}
+    {% if project.visible != false %}
 
 <div class="project">
     <div class="thumbnail">
@@ -31,5 +32,5 @@ weight: 3
         </a>
     </div>
 </div>
-
+    {% endif %}
 {% endfor %}
