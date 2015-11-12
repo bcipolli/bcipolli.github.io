@@ -9,6 +9,9 @@ layout: default
   </header>
 
   <article class="post-content">
+    {% if page.img %}
+    <img class="col one right" src="{{ page.img | prepend: site.baseurl }}" />
+    {% endif %}
     {{ content }}
   </article>
 
