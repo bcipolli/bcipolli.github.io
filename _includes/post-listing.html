@@ -24,12 +24,16 @@
               {% if post_image != '' %}
               <img style="width: 50px; border-radius: 5px; vertical-align: middle; margin-bottom: 5px;" src="{{ post_image }}" />
               {% endif %}
-              {% if post.is_draft %}[draft]{% endif %}
+              {% if post.is-draft %}[draft]{% endif %}
               {{ post.title }}
             </a>
             </h2>
             <p class="post-meta">
+              {% if post.reference %}
+              {{ post.reference }}
+              {% elsif post.date > date:'1500-01-01') %}
               {{ post.date | date: '%B %-d, %Y' }}
+              {% endif %}
               {% if post.redirect and post_location != '' %}
               -- posted to <a href="{{ post.redirect }}">{{ post_location | truncate:55,'...'}}</a>
               {% endif %}
