@@ -1,5 +1,4 @@
 ---
-layout: post
 title: RoyGBiv
 description: Javascript 3D surface visualization
 img:
