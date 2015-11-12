@@ -1,57 +1,34 @@
 ---
-layout: post
-title: Time Delays and Connectivity
+title: Time Delays &amp; Connectivity
 description: a project with no image
 img:
 permalink: /projects/ringo/
 weight: 5
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-	---
-	layout: post
-	title: Project
-	description: a project with a background image
-	img: {{ site.baseurl }}/img/12.jpg
-	---
-
-
-<div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/projects/1.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/projects/2.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/projects/3.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/projects/5.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
-
-
-<div class="img_row">
-	<img class="col two" src="{{ site.baseurl }}/img/projects/6.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/projects/11.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-<br/><br/><br/>
-
-
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above:
-
-	<div class="img_row">
-	  <img class="col two" src="/img/projects/6.jpg"/>
-	  <img class="col one" src="/img/projects/11.jpg"/>
-	</div>
+<p>
+    <b><u>Time delays and development</u> (<a href="http://mindmodeling.org/cogsci2013/papers/0086/index.html">COGSI 2013</a>)</b> - We use a recurrent neural network in time
+    to show that effects of time delays, when predictable, are highly over-stated--they
+    can be overcome through predictive learning, one of the fundamental features of the brain.
+</p>
+<p>
+	In this project, we argue that unreliable time delays cannot be overcome by
+    such means, suggest that unreliable delays exist early in mammalian development,
+    and argue that this effect is exacerbated more in humans than any other animal.
+</p>
+<p>
+	<b>Current project</b>: The Ringo model never actually <b>tested</b> whether
+	varying interhemispheric projections affects lateralization. We are testing
+	this by using RSA--representational similarity analysis--to see whether
+	information in each hemisphere is more or less similar as we manipulate
+	connections between them.
+</p>
+<p>
+    Representative posters and talks:
+    <ul>
+        <li>SfN 2014 (<a href="docs/posters/SfN2014/">Dynamic Poster</a>)</li>
+        <li>NCPW 2014 (<a href="docs/presentations/Cipollini_Cottrell_NCPW_2014_Slides.pdf">Talk Slides</a>)</li>
+        <li>COGSCI 2013 (<a href="docs/presentations/Cipollini_Cottrell_COGSCI_2013_Slides.pdf">Talk Slides</a>)</li>
+    </ul>
+</p>

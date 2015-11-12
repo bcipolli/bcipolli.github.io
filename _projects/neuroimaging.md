@@ -1,57 +1,27 @@
 ---
-layout: post
-title: Multivariate analysis of human brain asymmetries
-description: Use multivariate approaches to look at how asymmetries in the brain relate to each other.
+title: Multivariate approaches to asymmetry
+description: How do asymmetries inter-relate?
 img: /img/projects/2.jpg
 permalink: /projects/image-formats/
 weight: 6
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+<p>
+	<b><u>Measuring lateralization</u></b> -
+Currently, lateralized function
+in the brain is measured behaviorally, through brain damage, or through
+visible differences in neuroimaging (ERP: different waveforms; fMRI: difference
+in number or intensity of activated voxels)
+</p>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-	---
-	layout: post
-	title: Project
-	description: a project with a background image
-	img: /img/projects/12.jpg
-	---
-
-
-<div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/projects/1.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/projects/2.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/projects/3.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/projects/5.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
-
-
-<div class="img_row">
-	<img class="col two" src="{{ site.baseurl }}/img/projects/6.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/projects/11.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-<br/><br/><br/>
-
-
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above:
-
-	<div class="img_row">
-	  <img class="col two" src="/img/projects/6.jpg"/>
-	  <img class="col one" src="/img/projects/11.jpg"/>
-	</div>
+<p>We are currently using multivariate approaches to see:
+<ul>
+	<li>Relationships between different asymmetries in the brain. When
+	one part of the brain is asymmetric, are any others areas always
+	asymmetric too?</li>
+	<li>Representational similarity analysis (RSA) - forget whether
+	the two sides are active to the same level. Is the pattern of activations
+	across all stimuli similar on the left and right sides, or are they
+	computing different things?</li>
+</ul>
+</p>

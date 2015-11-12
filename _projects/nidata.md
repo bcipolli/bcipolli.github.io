@@ -1,5 +1,5 @@
 ---
-title: Public Access to Neuroimaging
+title: Public Access to Neuro-imaging Data
 description: a project with a background image
 img: /img/projects/1.jpg
 permalink: /projects/nidata/
