@@ -7,6 +7,9 @@
             {% elsif post.redirect contains 'plos' %}
               {% assign post_image = '/img/blog/plos-logo.png' | prepend:site.baseurl %}
               {% assign post_location = 'PLOS Neuro' %}
+            {% elsif post.redirect contains 'medium' %}
+              {% assign post_image = '/img/blog/medium-logo.png' | prepend:site.baseurl %}
+              {% assign post_location = 'Medium' %}
             {% else %}
               {% assign post_image = '' %}
               {% assign post_location = '' %}
