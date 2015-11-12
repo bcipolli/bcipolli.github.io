@@ -48,7 +48,7 @@
     width: 100%;
     height: 230px;
 }
-    .thumbnail a span {
+.thumbnail a span {
     display: block;
     position: absolute;
     top: 0;
@@ -56,7 +56,7 @@
     bottom: 0;
     right: 0;
     color: $grey-color-light;
-    padding: 40px;
+    padding: 30px;
     text-align: center;
     opacity: 0.45;
     background: rgba(1,1,1.0,0.2);
