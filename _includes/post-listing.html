@@ -19,10 +19,13 @@
   <hr/>
   <br/>
   <h2>
+  {% assign post_len = post.content | size %}
   {% if post.redirect %}
   <a class="post-title" href="{{ post.redirect }}" target="_blank">
-  {% else %}
+  {% elsif post_len > 1 %}
   <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">
+  {% else %}
+  <a name="">
   {% endif %}
     {% if post_image != '' %}
     <img style="width: 50px; border-radius: 5px; vertical-align: middle; margin-bottom: 5px;" src="{{ post_image }}" />
