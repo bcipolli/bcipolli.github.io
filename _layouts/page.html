@@ -4,7 +4,7 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title | downcase }}</h1>
+    {% if page.title %}<h1 class="post-title">{{ page.title | downcase }}</h1>{% endif %}
     <h5 class="post-description">{{ page.description }}</h5>
   </header>
 
