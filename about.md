@@ -2,13 +2,11 @@
 layout: page
 nav_title: about
 title: All about me
+description: Quick links - <a href="http://cseweb.ucsd.edu/~bcipolli/docs/CV/Cipollini_CV_2015-08-14.pdf">CV</a> and <a href="http://cseweb.ucsd.edu/~bcipolli/docs/CV/Cipollini_Resume_2015-08-14.pdf">resume</a> (updated 2015-08-14)
 permalink: /about/
 weight: 6
 header-bg: /img/bgs/fireworks.jpg
 ---
-
-Quick links: my <a href="http://cseweb.ucsd.edu/~bcipolli/docs/CV/Cipollini_CV_2015-08-14.pdf">CV (updated 2015-08-14)</a> &amp;
-<a href="http://cseweb.ucsd.edu/~bcipolli/docs/CV/Cipollini_resume_2015-08-14.pdf">resume (updated 2015-08-14)</a>
 
 <img src="{{ '/img/hemis-ping-pong.jpg' | prepend:site.baseurl }}" class="right" style="width:35%; padding: 5px; margin: 5px 10px 10px 20px; border: 1px solid black; border-radius: 10px;" />
 
