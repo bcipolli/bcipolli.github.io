@@ -1,7 +1,6 @@
 ---
 layout: page
 permalink: /
-nav_title: home
 pub-type: news
 document-class: news
 title: news
