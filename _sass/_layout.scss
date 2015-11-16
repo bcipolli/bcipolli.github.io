@@ -62,6 +62,17 @@ img.bg {
     float: left;
 }
 
+.selected.site-logo {
+    padding: 3px;
+    padding-left: 5px;
+    height: 59px;
+}
+.selected .site-pic {
+    width: 55px;
+}
+.selected .site-tag {
+}
+
 .site-nav {
     overflow: hidden;
     height: $nav-height;
@@ -98,6 +109,7 @@ img.bg {
 
 .selected {
     background-color:#ffc;
+    border-radius: 5px;
 }
 
 .header-bar{

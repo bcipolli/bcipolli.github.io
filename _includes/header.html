@@ -1,6 +1,7 @@
+{% assign page_url=page.url|replace:'index.html','' %}{{ page_url }}
 <header class="site-header">
   <div class="wrapper">
-    <div class="site-logo">
+    <div class="site-logo{% if page_url == '/' %} selected{% endif %}">
       <a href="{{ site.baseurl }}/">
         <img class="site-pic" src="{{ '/img/prof_pic.jpg' | prepend:site.baseurl }}">
         <div class="site-title">{{ site.title | downcase }}</div>
@@ -11,7 +12,6 @@
     <nav class="site-nav">
       <div class="trigger">
         {% assign sorted_pages = site.pages | sort:"weight" %}
-        {% assign page_url=page.url|replace:'index.html','' %}
         {% for pg in sorted_pages %}
           {% assign pg_url=pg.url|replace:'index.html','' %}
           {% if pg.url contains '/page' %}
