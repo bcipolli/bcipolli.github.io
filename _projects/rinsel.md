@@ -1,10 +1,10 @@
 ---
 title: Allometry of the Corpus Callosum
-description: a project with a background image
+description: Cross-hemisphere connections are key.
 img: /img/projects/rinsel.png
 img-caption: Small brains and large brains differ in how much connective tissue exists. Does this affect how the two sides of the brain interconnect?
 permalink: /projects/rinsel/
-weight: 3
+weight: 2
 ---
 
 
@@ -48,6 +48,6 @@ weight: 3
 <p>
     Representative posters and talks:
     <ul>
-        <li>SfN 2014 (<a href="docs/posters/Cipollini_Cottrell_SfN_2014_Rinsel.pdf">Poster</a>)</li>
+        <li>SfN 2014 (<a href="http://cseweb.ucsd.edu/~bcipolli/docs/posters/Cipollini_Cottrell_SfN_2014_Rinsel.pdf">Poster</a>)</li>
     </ul>
 </p>

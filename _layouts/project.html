@@ -11,7 +11,7 @@ layout: default
   <article class="post-content">
     {% if page.img %}
     <div class="col one right" style="border: 1px solid black; padding: 10px;">
-        <img style="max-width: 210px; max-height: 210px" src="{{ page.img | prepend: site.baseurl }}" />
+        <img style="background-color: #aaa; max-width: 210px; max-height: 210px; padding: 2px;" src="{{ page.img | prepend: site.baseurl }}" />
         {% if page.img-caption %}<p class="caption">{{ page.img-caption }}</p>{% endif %}
     </div>
     {% endif %}

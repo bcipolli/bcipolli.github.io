@@ -1,7 +1,7 @@
 ---
 title: Time Delays &amp; Connectivity
-description: a project with no image
-img:
+description: Timing delays do not reduce connection importance.
+img: /img/projects/ringo.png
 permalink: /projects/ringo/
 weight: 5
 ---
@@ -27,8 +27,8 @@ weight: 5
 <p>
     Representative posters and talks:
     <ul>
-        <li>SfN 2014 (<a href="docs/posters/SfN2014/">Dynamic Poster</a>)</li>
-        <li>NCPW 2014 (<a href="docs/presentations/Cipollini_Cottrell_NCPW_2014_Slides.pdf">Talk Slides</a>)</li>
-        <li>COGSCI 2013 (<a href="docs/presentations/Cipollini_Cottrell_COGSCI_2013_Slides.pdf">Talk Slides</a>)</li>
+        <li>SfN 2014 (<a href="http://cseweb.ucsd.edu/~bcipolli/docs/posters/SfN2014/">Dynamic Poster</a>)</li>
+        <li>NCPW 2014 (<a href="http://cseweb.ucsd.edu/~bcipolli/docs/presentations/Cipollini_Cottrell_NCPW_2014_Slides.pdf">Talk Slides</a>)</li>
+        <li>COGSCI 2013 (<a href="http://cseweb.ucsd.edu/~bcipolli/docs/presentations/Cipollini_Cottrell_COGSCI_2013_Slides.pdf">Talk Slides</a>)</li>
     </ul>
 </p>

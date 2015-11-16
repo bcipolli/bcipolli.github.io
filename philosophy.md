@@ -31,7 +31,7 @@ All data and all analyses <i>must be open</i>. Simply making them available is n
 </p>
 
 <p>
-<b>Computational modeling is the battlefield where ideas compete.</b> They take the unscientific words of a pet theory and turn them into numbers (i.e. “operationalize” them), the lifeblood of science.  So while it’s possible to describe a model in words–and in the social sciences, people frequently do–it’s also possible that the idea <i>actually</i> doesn't work, or isn't as good as others.
+<i>Computational modeling is the battlefield where ideas compete.</i> They take the unscientific words of a pet theory and turn them into numbers. This is called "operationalization”, and it is the lifeblood of science.  While it’s possible to describe a model in words–-and in the social sciences, people frequently do–-it is also possible that the idea <i>doesn't actually work</i>.
 
 <p>
 When I started doing cognitive modeling of with <a href="http://cseweb.ucsd.edu/~gary/">Gary Cottrell</a> and <a href="http://web.hku.hk/~jhsiao/">Janet Hsiao</a> in 2008, I immediately noticed: in science, there is much more data than there are explanations. Instead of explaining all of the data, most scientists focus on collecting new data. Given the data deluge and frequent lack of rigorous explanations for the data, I vowed never to collect data.</p>

@@ -1,7 +1,7 @@
 ---
 title: Multivariate approaches to asymmetry
 description: How do asymmetries inter-relate?
-img: /img/projects/2.jpg
+img: /img/projects/ping.png
 permalink: /projects/image-formats/
 weight: 6
 ---
@@ -24,4 +24,11 @@ in number or intensity of activated voxels)
 	across all stimuli similar on the left and right sides, or are they
 	computing different things?</li>
 </ul>
+</p>
+
+<p>
+    Representative posters and talks:
+    <ul>
+        <li>SfN 2015 (<a href="http://cseweb.ucsd.edu/~bcipolli/docs/posters/SfN2015/">Poster</a>)</li>
+    </ul>
 </p>

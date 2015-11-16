@@ -1,8 +1,9 @@
 ---
 title: Differential Encoding
 description: A neural network model of lateralized visual processing
-img:
+img: /img/projects/de.png
 permalink: /projects/differential-encoding/
+repo_url: https://github.com/guruucsd/DifferentialEncoding
 weight: 4
 ---
 
@@ -26,7 +27,7 @@ weight: 4
 <p>
     Representative posters and talks:
     <ul>
-        <li>COGSCI 2014: Developmental model (<a href="docs/presentations/Cipollini_Cottrell_COGSCI_2014_Slides.pdf">Slides</a>)</li>
-        <li>COGSCI 2012: Basic model (<a href="docs/posters/Cipollini_Cottrell_COGSCI_2012_Poster.pdf">Poster</a>)</li>
+        <li>COGSCI 2014: Developmental model (<a href="http://cseweb.ucsd.edu/~bcipolli/docs/presentations/Cipollini_Cottrell_COGSCI_2014_Slides.pdf">Slides</a>)</li>
+        <li>COGSCI 2012: Basic model (<a href="http://cseweb.ucsd.edu/~bcipolli/docs/posters/Cipollini_Cottrell_COGSCI_2012_Poster.pdf">Poster</a>)</li>
     </ul>
 </p>
