@@ -2,7 +2,7 @@
 publication-class: paper
 title: "Ph.D Dissertation: A unified hypothesis of visual asymmetry, interhemispheric communication, and their typical development in humans"
 date: 2013-06-01
-description: "My description"
+description: "Left and right hemispheres process visual information differently. Here I present computational modeling to suggest that the major difference is in shape and contour processing, and interhemispheric connectivity must not be ignored."
 ---
 
 <p>

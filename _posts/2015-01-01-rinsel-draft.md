@@ -2,7 +2,7 @@
 publication-class: paper
 title: "Interhemispheric connectivity endures across species: an allometric expose on the corpus callosum"
 authors: Cipollini, Ben and Cottrell, Garrison W.
-description: "My description"
+description: "We show that interhemispheric connectivity is crucial, independent of brain size, by better estimating within- and across-hemisphere connectivity, and factoring in that interhemispheric connectivity is mostly homotopic, regardless of brain size."
 is-draft: true
 date: 2015-11-01
 ---
