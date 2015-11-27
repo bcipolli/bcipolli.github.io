@@ -13,13 +13,15 @@ date: 2015-11-01
     are asymmetric particularly in humans because our hemispheres are more independent than in other
     mammals.  We hypothesize that the opposite must be true - in order for the two sides to do
     different things, they <i>must</i> be able to talk with each other.
-    </p>
+</p>
 
-    <p>In this project, we show that a previous reports of decreased connectivity between the hemispheres
+<p>
+    In this project, we show that a previous reports of decreased connectivity between the hemispheres
     in large-brained animals were based on incorrect assumptions.  Using more data from the literature,
     we show that interhemispheric connections are as important, and probably
     more important, than the average connection between two parts of the brain.
 </p>
+
 <p>
     Representative posters and talks:
     <ul>
