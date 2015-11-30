@@ -6,6 +6,7 @@ title: mentoring
 permalink: /mentoring/
 weight: 5
 ---
+{% assign students=site.data.map-students|sort:"first-name"|sort:"last-name" %}
 
 <img class="col one right" src="{{ '/img/map.png' | prepend:site.baseurl }}">
 
@@ -27,11 +28,11 @@ weight: 5
 <p>
   Four students are working with me to advance research projects.
   <ul>
-      <li><span class="student-name">Triet Liu</span> is working on 3D visualizations of brain data using <a href="{{ '/projects/rogybiv/' | prepend:site.baseurl }}">RoyGBiv</a> and <a href="http://brainbrowser.cbrain.mcgill.ca/">Brain Browser</a>.</li>
-      <li><span class="student-name">Frank Liao</span> is using <a href="http://sphinx.org/">Sphinx</a> to create a website for <a href="{{ '/projects/nidata/' | prepend:site.baseurl }}">nidata</a>.</li>
-      <li><span class="student-name">Howard Zhang</span> is implementing access to the <a href="http://humanconnectome.org/">Human Connectome Project</a> (HCP) dataset in <a href="{{ '/projects/nidata/' | prepend:site.baseurl }}">nidata</a>.</li>
-      <li><span class="student-name">Roshan Srinivasan</span> is working on some of the <a href="{{ '/projects/nidata/' | prepend:site.baseurl }}">nidata</a> infrastructure and building access
-      to new data sources.</li>
+  {% for student in students %}
+    {% if student.type == 'research' %}
+      {% include map-student-list-item.html %}
+    {% endif %}
+  {% endfor %}
   </ul>
 <p>
 
@@ -39,7 +40,16 @@ weight: 5
   Eight students are working on independent projects. I am meeting
   with them once every two weeks for some basic training, status updates, and
   overall group support.
-   A list of students and planned projects will come soon!
+
+  <ul>
+  {% for student in students %}
+    {% if student.type == 'project' %}
+    <li>
+      {% include map-student-list-item.html %}
+    </li>
+    {% endif %}
+  {% endfor %}
+  </ul>
 </p>
 
 <p>

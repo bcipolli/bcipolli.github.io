@@ -1,0 +1,6 @@
+    <li>
+      <a href="https://github.com/{{ student.github-username }}"><i class="fa fa-github"> </i></a>
+      <a href="{{ student.homepage }}"><i class="fa fa-home"> </i></a>
+      <span class="student-name">{{ student.first-name}} {{ student.last-name }}</span>
+      - {% if student.project-blurb %}{{ student.project-blurb }}{% else %}project TBD.{% endif %}
+    </li>
