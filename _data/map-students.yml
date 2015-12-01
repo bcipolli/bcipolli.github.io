@@ -1,3 +1,8 @@
+- first-name: "Ben"
+  last-name: "Cipollini"
+  type: "project"
+  github-username: "bcipolli-map"
+  homepage: "http://bcipolli.github.io"
 - first-name: "Gillian"
   last-name: "Franks"
   type: "project"
