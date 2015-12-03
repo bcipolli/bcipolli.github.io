@@ -2,7 +2,7 @@
 title: Ben Cipollini
 tagline: All computation, all the time.
 description: > # this means to ignore newlines until "baseurl:"
-  A simple, whitespace, helvetica based portfolio theme.
+  Doing science out in the open.
 baseurl: ''
 url:  # the base hostname & protocol for your site
 
@@ -34,15 +34,20 @@ paginate_path: "/publications/page:num"
 collections:
   projects:
     output: true
-    permalink: /projects/:path
+    permalink: /projects/:path/
   news:
     output: true
-    permalink: /news/:path
+    permalink: /news/:path/
   publication-types:
     output: true
-    permalink: /publications/:path
+    permalink: /publications/:path/
 
 defaults:
+  - scope:
+      type: news
+    values:
+      layout: post
+      document-class: news
   - scope:
       type: projects
     values:
