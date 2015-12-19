@@ -3,7 +3,7 @@
   type: "project"
   github-username: "FlyingNowhere"
   homepage: "https://github.com/FlyingNowhere"
-  - first-name: "Emi"
+- first-name: "Emi"
   last-name: "Copic"
   type: "project"
   github-username: "LCEC"
@@ -13,7 +13,7 @@
   type: "project"
   github-username: "alvintzheng"
   homepage: "https://github.com/alvintzheng"
-  project-blurb: Platformer computer game <a href=https://docs.google.com/document/d/1QLA6dMCaSzN8z56pwWe7V9CCzKQPPiO68BIH_fNpJJc/edit>Link</a>
+  project-blurb: Platformer computer game (<a href='https://docs.google.com/document/d/1QLA6dMCaSzN8z56pwWe7V9CCzKQPPiO68BIH_fNpJJc/edit'>proposal</a>)
 - first-name: "Shivani"
   last-name: "Bhushan"
   type: "project"
