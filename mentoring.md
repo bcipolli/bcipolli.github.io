@@ -26,7 +26,7 @@ weight: 5
 </p>
 
 <p>
-  Four students are working with me to advance research projects.
+  Three students are working with me to advance research projects.
   <ul>
   {% for student in students %}
     {% if student.type == 'research' %}

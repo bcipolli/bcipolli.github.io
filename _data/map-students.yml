@@ -44,15 +44,9 @@
 - first-name: "Howard"
   last-name: "Zhang"
   type: "research"
-  github-username: "?"
-  homepage: "?"
+  github-username: "hwd15508"
+  homepage: "https://github.com/hwd15508"
   project-blurb: Accessing the <a href="http://humanconnectome.org/">Human Connectome Project</a> (HCP) dataset in <a href="{{ '/projects/nidata/' | prepend:site.baseurl }}">nidata</a>.
-- first-name: "Roshan"
-  last-name: "Srinivasan"
-  type: "research"
-  github-username: "?"
-  homepage: "?"
-  project-blurb: <a href="{{ '/projects/nidata/' | prepend:site.baseurl }}">nidata</a> infrastructure and access to new data sources.
 - first-name: "Alice"
   last-name: "Wu"
   type: "project"
