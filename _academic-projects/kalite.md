@@ -1,8 +1,8 @@
 ---
 title: KA Lite
 description: a project with a background image
-img: /img/projects/1.jpg
-permalink: /projects/kalite/
+img: /img/academia/projects/1.jpg
+permalink: /academia/projects/kalite/
 visible: false
 weight: 8
 ---

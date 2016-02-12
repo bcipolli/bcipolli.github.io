@@ -1,8 +1,8 @@
 ---
 title: Differential Encoding
 description: A neural network model of lateralized visual processing
-img: /img/projects/de.png
-permalink: /projects/differential-encoding/
+img: /img/academia/projects/de.png
+permalink: /academia/projects/differential-encoding/
 repo_url: https://github.com/guruucsd/DifferentialEncoding
 weight: 4
 ---

@@ -1,14 +1,15 @@
 ---
 layout: page
 document-class: projects
-nav_title: projects
+nav-class: academia
+nav-title: projects
 title: projects
 description: Research and software projects that I'm working on.
-permalink: /projects/
+permalink: /academia/projects/
 weight: 2
 ---
 
-{% assign sorted_projects = site.projects | sort:"weight" %}
+{% assign sorted_projects = site.academic-projects | sort:"weight" %}
 {% for project in sorted_projects %}
     {% if project.visible != false %}
 <div class="project">

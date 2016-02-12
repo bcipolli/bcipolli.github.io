@@ -1,9 +1,10 @@
 ---
 layout: page
 document-class: mentoring
-nav_title: mentoring
+nav-class: academia
+nav-title: mentoring
 title: mentoring
-permalink: /mentoring/
+permalink: /academia/mentoring/
 weight: 5
 ---
 {% assign students=site.data.map-students|sort:"first-name"|sort:"last-name" %}

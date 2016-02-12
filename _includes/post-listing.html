@@ -1,14 +1,14 @@
 {% if post.redirect contains 'neuwritesd' %}
-  {% assign post_image = '/img/blog/neuwritesd-logo.jpg' | prepend:site.baseurl %}
+  {% assign post_image = '/img/logos/neuwritesd.jpg' | prepend:site.baseurl %}
   {% assign post_location = 'NeuWriteSD' %}
 {% elsif post.redirect contains 'tumblr' %}
-  {% assign post_image = '/img/blog/tumblr-logo.png' | prepend:site.baseurl %}
+  {% assign post_image = '/img/logos/tumblr.png' | prepend:site.baseurl %}
   {% assign post_location = 'Tumblr' %}
 {% elsif post.redirect contains 'plos' %}
-  {% assign post_image = '/img/blog/plos-logo.png' | prepend:site.baseurl %}
+  {% assign post_image = '/img/logos/plos.png' | prepend:site.baseurl %}
   {% assign post_location = 'PLOS Neuro' %}
 {% elsif post.redirect contains 'medium' %}
-  {% assign post_image = '/img/blog/medium-logo.png' | prepend:site.baseurl %}
+  {% assign post_image = '/img/logos/medium.png' | prepend:site.baseurl %}
   {% assign post_location = 'Medium' %}
 {% else %}
   {% assign post_image = '' %}

@@ -1,0 +1,39 @@
+{% assign page_url=page.url|replace:'index.html','' %}{{ page_url }}
+<header class="site-header">
+  <div class="wrapper">
+    <div class="site-logo{% if page_url == '/' %} selected{% endif %}">
+      <a href="{{ site.baseurl }}/">
+        <img class="site-pic" src="{{ '/img/prof_pic.jpg' | prepend:site.baseurl }}">
+        <div class="site-title">{{ site.title | downcase }}</div>
+        <div class="site-tag">{{ site.tagline }}</div>
+      </a>
+    </div>
+
+    <nav class="site-nav">
+      <div class="trigger">
+        {% assign sorted_pages = site.pages | sort:"weight" %}
+        {% for pg in sorted_pages %}
+          {% assign pg_url=pg.url|replace:'index.html','' %}
+          {% if pg.url contains '/page' %}
+          {% elsif pg.nav_title %}
+            {% assign class="" %}
+            {% if pg_url == '/' %}
+              {% if pg_url == page_url %}
+                {% assign class=" selected" %}
+              {% endif %}
+            {% elsif page_url contains pg_url %}
+              {% assign class=" selected" %}
+            {% endif %}
+            <a class="page-link{{ class }}" href="{{ pg.url | replace:'index.html','' | prepend: site.baseurl }}">{{ pg.nav_title }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </nav>
+  </div>
+  {% if page.header-bg %}
+    {% assign header_bg=page.header-bg %}
+  {% else %}
+    {% assign header_bg='/img/bgs/airplane.jpg' %}
+  {% endif %}
+  <img class="bg" src="{{ header_bg | prepend:site.baseurl }}">
+</header>

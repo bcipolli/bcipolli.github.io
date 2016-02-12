@@ -1,9 +1,10 @@
 ---
 layout: publications-list
 document-class: publications
+nav-class: academia
 title: Blog Posts
 pub-type: blog
-permalink: /publications/blog/
+permalink: /academia/publications/blog/
 weight: 3
 ---
 

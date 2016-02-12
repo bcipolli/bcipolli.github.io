@@ -37,13 +37,13 @@
   type: "research"
   github-username: "AMongolNamedFrank"
   homepage: "http://frankliao.weebly.com/"
-  project-blurb: Using <a href="http://sphinx.org/">Sphinx</a> to create a website for <a href="{{ '/projects/nidata/' | prepend:site.baseurl }}">nidata</a>.
+  project-blurb: Using <a href="http://sphinx.org/">Sphinx</a> to create a website for <a href="{{ '/academia/projects/nidata/' | prepend:site.baseurl }}">nidata</a>.
 - first-name: "Howard"
   last-name: "Zhang"
   type: "research"
   github-username: "hwd15508"
   homepage: "https://github.com/hwd15508"
-  project-blurb: Accessing the <a href='http://humanconnectome.org/">Human Connectome Project</a> (HCP) dataset in <a href="{{ '/projects/nidata/' | prepend:site.baseurl }}">nidata</a>.
+  project-blurb: Accessing the <a href='http://humanconnectome.org/">Human Connectome Project</a> (HCP) dataset in <a href="{{ '/academia/projects/nidata/' | prepend:site.baseurl }}">nidata</a>.
 - first-name: "Alice"
   last-name: "Wu"
   type: "project"

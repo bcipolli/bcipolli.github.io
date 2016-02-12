@@ -6,6 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: ''
 url:  # the base hostname & protocol for your site
 
+gems: [jekyll-paginate]
 
 # Contact settings
 email: bcipolli@ucsd.edu
@@ -23,24 +24,24 @@ wordpress_url: folio
 # Build settings
 markdown: kramdown
 
-highlighter: pygments
+highlighter: rouge
 
 # Pagination
 paginate: 5
-paginate_path: "/publications/page:num"
+paginate_path: "/academia/publications/page:num"
 
 
 # blog, code, pubs, projects, mentoring, about,
 collections:
   projects:
     output: true
-    permalink: /projects/:path/
+    permalink: /academia/projects/:path/
   news:
     output: true
-    permalink: /news/:path/
+    permalink: /academia/news/:path/
   publication-types:
     output: true
-    permalink: /publications/:path/
+    permalink: /academia/publications/:path/
 
 defaults:
   - scope:

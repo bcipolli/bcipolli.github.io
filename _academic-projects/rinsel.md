@@ -1,9 +1,9 @@
 ---
 title: Allometry of the Corpus Callosum
 description: Cross-hemisphere connections are key.
-img: /img/projects/rinsel.png
+img: /img/academia/projects/rinsel.png
 img-caption: Small brains and large brains differ in how much connective tissue exists. Does this affect how the two sides of the brain interconnect?
-permalink: /projects/rinsel/
+permalink: /academia/projects/rinsel/
 weight: 2
 ---
 
@@ -29,13 +29,13 @@ weight: 2
 </p>
 
 <div style="width: 100%; padding: 15px; padding-top: 25px; height: 220px;">
-    <div class="one left"><img style="height: 200px;" src="{{ '/img/projects/rinsel/w_fig1e_raw.png' | prepend: site.baseurl }}"></div>
+    <div class="one left"><img style="height: 200px;" src="{{ '/img/academia/projects/rinsel/w_fig1e_raw.png' | prepend: site.baseurl }}"></div>
     <div class="one left caption" style="height: 200px; vertical-align: middle">
     <p>&nbsp;</p>
     <p>&nbsp;</p>
         Original and parsed figures.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     </div>
-    <div class="one left"><img style="height: 200px;" src="/img/projects/rinsel/w_fig1e_parsed.png"></div>
+    <div class="one left"><img style="height: 200px;" src="/img/academia/projects/rinsel/w_fig1e_parsed.png"></div>
 </div>
 
 <p>

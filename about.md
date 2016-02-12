@@ -1,6 +1,7 @@
 ---
 layout: page
-nav_title: about
+nav-class: main
+nav-title: me
 title: All about me
 description: Quick links - <a href="http://cseweb.ucsd.edu/~bcipolli/docs/CV/Cipollini_CV_2015-08-14.pdf">CV</a> and <a href="http://cseweb.ucsd.edu/~bcipolli/docs/CV/Cipollini_Resume_2015-08-14.pdf">resume</a> (updated 2015-08-14)
 permalink: /about/
@@ -38,11 +39,11 @@ header-bg: /img/bgs/fireworks.jpg
   All of my
   <a href="https://github.com/{{ github_username }}/">research code </a>
   can be found on Github.
-  I <a href="{{ '/publications/blog/' | prepend:site.baseurl }}">blog</a>
+  I <a href="{{ '/academia/publications/blog/' | prepend:site.baseurl }}">blog</a>
   for a number of websites, develop
-  <a href="{{ '/projects/roygbiv/' | prepend:site.baseurl }}">interactive visualizations</a>
+  <a href="{{ '/academia/projects/roygbiv/' | prepend:site.baseurl }}">interactive visualizations</a>
   of brain data, and have begun to give
-  <a href="{{ '/publications/talks/' | prepend:site.baseurl }}">public talks</a>.
+  <a href="{{ '/academia/publications/talks/' | prepend:site.baseurl }}">public talks</a>.
 </p>
 <p>
   Outside of academia, I particularly enjoy photography. I post photos

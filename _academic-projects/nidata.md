@@ -1,9 +1,9 @@
 ---
 title: Public Access to Neuro-imaging Data
 description: Public data for the masses.
-img: /img/projects/nidata.png
+img: /img/academia/projects/nidata.png
 img-caption: nidata is an open-source project for making public neuroimaging data easy to find, download, and understand how to use.
-permalink: /projects/nidata/
+permalink: /academia/projects/nidata/
 weight: 1
 ---
 

@@ -4,7 +4,7 @@ document-class: publications
 ---
 
 <div class="nav-bar clearfix">
-    {% assign sorted_ptypes = site.publication-types | sort:"weight" %}
+    {% assign sorted_ptypes = site.academic-publication-types | sort:"weight" %}
     {% for pub in sorted_ptypes %}
     <a href="{{ pub.url | prepend: site.baseurl }}">
     <div class='nav-item{% if pub.url == page.url %} nav-selected{% endif %}'>

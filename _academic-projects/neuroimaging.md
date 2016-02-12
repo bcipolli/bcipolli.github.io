@@ -1,8 +1,8 @@
 ---
 title: Multivariate approaches to asymmetry
 description: How do asymmetries inter-relate?
-img: /img/projects/ping.png
-permalink: /projects/image-formats/
+img: /img/academia/projects/ping.png
+permalink: /academia/projects/image-formats/
 weight: 6
 ---
 

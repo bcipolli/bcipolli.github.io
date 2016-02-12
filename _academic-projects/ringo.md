@@ -1,8 +1,8 @@
 ---
 title: Time Delays &amp; Connectivity
 description: Timing delays do not reduce connection importance.
-img: /img/projects/ringo.png
-permalink: /projects/ringo/
+img: /img/academia/projects/ringo.png
+permalink: /academia/projects/ringo/
 weight: 5
 ---
 

@@ -1,18 +1,12 @@
 ---
 layout: page
-nav_title: philosophy
+nav-class: academia
+nav-title: philosophy
 title: philosophy
 description: Why I do what I do.
-permalink: /philosophy/
+permalink: /academia/philosophy/
 weight: 1
 ---
-
-<style>
-h4 {
-  text-decoration: underline;
-  padding-top: 20px;
-}
-</style>
 
 <p>
 <h4 style="padding-top: 0px;">"Open science" <i>is just science</i>.</h4>
@@ -23,7 +17,7 @@ There are two parts to science. First, science is the process of verifiable data
 </p>
 
 <p>
-All data and all analyses <i>must be open</i>. Simply making them available is not enough; they must be properly documented. The need for public, documented access to data led me to create the <a href="{{ '/projects/nidata/' | prepend: site.baseurl }}">nidata project</a>.
+All data and all analyses <i>must be open</i>. Simply making them available is not enough; they must be properly documented. The need for public, documented access to data led me to create the <a href="{{ '/academia/projects/nidata/' | prepend: site.baseurl }}">nidata project</a>.
 </p>
 
 <p>
@@ -36,7 +30,7 @@ All data and all analyses <i>must be open</i>. Simply making them available is n
 <p>
 When I started doing cognitive modeling of with <a href="http://cseweb.ucsd.edu/~gary/">Gary Cottrell</a> and <a href="http://web.hku.hk/~jhsiao/">Janet Hsiao</a> in 2008, I immediately noticed: in science, there is much more data than there are explanations. Instead of explaining all of the data, most scientists focus on collecting new data. Given the data deluge and frequent lack of rigorous explanations for the data, I vowed never to collect data.</p>
 
-<p>I spend my time building models that account for as much of the data as possible. This is hard--scientists are <a href="">notorious for their poor data sharing practices</a>. I have been <a href="http://www.dodtracker.com/">scraping data since I founded DODTracker.com</a>; in my research, I've <a href="">scraped figures from papers to get data</a> and <a href="{{ '/projects/nidata/' | prepend: site.baseurl }}">helped build public access to neuroscience datasets</a> to make this all happen.
+<p>I spend my time building models that account for as much of the data as possible. This is hard--scientists are <a href="">notorious for their poor data sharing practices</a>. I have been <a href="http://www.dodtracker.com/">scraping data since I founded DODTracker.com</a>; in my research, I've <a href="">scraped figures from papers to get data</a> and <a href="{{ '/academia/projects/nidata/' | prepend: site.baseurl }}">helped build public access to neuroscience datasets</a> to make this all happen.
 </p>
 
 <p>

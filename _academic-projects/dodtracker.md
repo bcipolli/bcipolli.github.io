@@ -1,8 +1,8 @@
 ---
 title: DODTracker.com
 description: a project with a background image
-img: /img/projects/1.jpg
-permalink: /projects/dodtracker/
+img: /img/academia/projects/1.jpg
+permalink: /academia/projects/dodtracker/
 visible: false
 weight: 7
 ---
