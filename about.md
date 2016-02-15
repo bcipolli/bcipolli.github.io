@@ -3,7 +3,7 @@ layout: page
 nav-class: main
 nav-title: me
 title: All about me
-description: Quick links - <a href="http://cseweb.ucsd.edu/~bcipolli/docs/CV/Cipollini_CV_2015-08-14.pdf">CV</a> and <a href="http://cseweb.ucsd.edu/~bcipolli/docs/CV/Cipollini_Resume_2015-08-14.pdf">resume</a> (updated 2015-08-14)
+description: Quick links - <a href="http://cseweb.ucsd.edu/~bcipolli/docs/CV/Cipollini_CV_2016-02-15.pdf">Academic CV</a> and <a href="http://cseweb.ucsd.edu/~bcipolli/docs/CV/Cipollini_Resume_2016-02-15.pdf">Resume</a> (updated 2016-02-15)
 permalink: /about/
 weight: 6
 header-bg: /img/bgs/fireworks.jpg
