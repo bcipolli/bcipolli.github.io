@@ -7,7 +7,7 @@ permalink: /academia/
 weight: 2
 ---
 
-<img src="{{ '/img/hemis-ping-pong.jpg' | prepend:site.baseurl }}" class="right" style="width:35%; padding: 5px; margin: 5px 10px 10px 20px; border: 1px solid black; border-radius: 10px;" />
+<img src="{{ '/img/academia/hemis-ping-pong.jpg' | prepend:site.baseurl }}" class="right" style="width:35%; padding: 5px; margin: 5px 10px 10px 20px; border: 1px solid black; border-radius: 10px;" />
 
 <p>
   I am a post-doctoral researcher

@@ -9,7 +9,7 @@ weight: 5
 ---
 {% assign students=site.data.map-students|sort:"first-name"|sort:"last-name" %}
 
-<img class="col one right" src="{{ '/img/map.png' | prepend:site.baseurl }}">
+<img class="col one right" src="{{ '/img/logos/map.png' | prepend:site.baseurl }}">
 
 <a name="MAP"></a>
 <p>
