@@ -26,7 +26,6 @@ weight: 2
   data.
 </p>
 
-<img class="col one left" style="margin: 0px 20px 0px 0px; " src="{{ '/img/prof_pic.jpg' | prepend:site.baseurl }}">
 <p>
   I am a big proponent of open science: using and contributing to
   <i>publicly available datasets</i>,  <i>open source software</i>,
@@ -40,13 +39,3 @@ weight: 2
   of brain data, and have begun to give
   <a href="{{ '/academia/publications/talks/' | prepend:site.baseurl }}">public talks</a>.
 </p>
-<p>
-  Outside of academia, I particularly enjoy photography. I post photos
-  to <a href="https://plus.google.com/+BenCipolliniSD/photos">Google Plus</a>,
-  <a href="http://www.redbubble.com/people/quickowl">Redbubble</a>,
-  and <a href="http://ben-cipollini.artistwebsites.com/">Fine Art America</a>.
-  I also care a lot about secular ethics, spirituality, and morality,
-  and hope to write about it in the future.
-</p>
-
-{% include contact.html %}
