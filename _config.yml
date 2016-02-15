@@ -31,13 +31,13 @@ paginate_path: "/academia/publications/page:num"
 
 # blog, code, pubs, projects, mentoring, about,
 collections:
-  projects:
+  academic-projects:
     output: true
     permalink: /academia/projects/:path/
   news:
     output: true
     permalink: /academia/news/:path/
-  publication-types:
+  academic-publication-types:
     output: true
     permalink: /academia/publications/:path/
 
