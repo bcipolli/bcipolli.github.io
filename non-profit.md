@@ -48,3 +48,7 @@ weight: 1
   Through this work, we were able to extend Khan Academy's work to the populations that needed it the most--those with few teacher and education resources also have little streaming-capable Internet connectivity. I led a partnership with the <a href="https://www.idoc.idaho.gov/">Idaho Department of Correction</a> and <a href="http://www.nnu.edu/">Northwest Nazarene University</a> to <a href="https://learningequality.org/blog/2013/ka-lite-brings-offline-education-idaho-department-/">deploy KA Lite to prisoners</a>--who love the ability to work at their own speed and without judgment or worry for their current level. I also led a partnership with <a href="https://med.stanford.edu/">Stanford Medicine</a> to develop and deploy a Khan Academy / Stanford Medicine hybrid system that we <a href="https://medium.com/@mrquickowl/videos-for-gitwe-a1768dfc321b#.q08kp38iz">deployed in Gitwe, Rwanda</a> to the first private medical school in the country.
 </p>
 
+<p>
+  In addition, KA Lite is able to collect back user usage data, any time the system
+  gets online. So much can be done with them to understand learning patterns across culture and location!
+</p>
