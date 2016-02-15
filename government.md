@@ -4,7 +4,7 @@ nav-class: main
 nav-title: government
 title: data for government
 permalink: /government/
-weight: 2
+weight: 3
 ---
 
 <img class="col one right" src="{{ '/img/logos/cfa.png' | prepend:site.baseurl }}">

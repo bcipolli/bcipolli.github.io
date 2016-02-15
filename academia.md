@@ -4,8 +4,7 @@ nav-class: main
 nav-title: half-brains
 title: academic research
 permalink: /academia/
-weight: 3
-header-bg: /img/bgs/fireworks.jpg
+weight: 2
 ---
 
 <img src="{{ '/img/hemis-ping-pong.jpg' | prepend:site.baseurl }}" class="right" style="width:35%; padding: 5px; margin: 5px 10px 10px 20px; border: 1px solid black; border-radius: 10px;" />

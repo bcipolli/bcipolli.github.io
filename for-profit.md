@@ -4,7 +4,7 @@ nav-class: main
 nav-title: $$$
 title: data for profit
 permalink: /start-ups/
-weight: 2.5
+weight: 4
 ---
 
 <!--p>
