@@ -3,6 +3,7 @@ layout: page
 nav-class: main
 nav-title: government
 title: data for government
+description: Working to connect people with their governments more effectively.
 permalink: /government/
 weight: 3
 ---

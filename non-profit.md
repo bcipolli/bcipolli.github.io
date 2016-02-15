@@ -3,6 +3,7 @@ layout: page
 nav-class: main
 nav-title: non-profit
 title: data for good
+description: Using data science in the non-profit space
 permalink: /non-profit/
 weight: 1
 ---

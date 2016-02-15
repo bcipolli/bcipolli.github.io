@@ -3,6 +3,7 @@ layout: page
 nav-class: main
 nav-title: $$$
 title: data for profit
+description: Using data to make money--and do even more good!
 permalink: /start-ups/
 weight: 4
 ---
