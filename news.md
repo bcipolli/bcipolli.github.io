@@ -5,7 +5,7 @@ pub-type: news
 document-class: news
 nav-class: main
 title: news
-description: <p>Recent news &amp; tweets from San Diego.</p>
+description: Recent news &amp; tweets from San Diego.
 weight: 0
 ---
 
