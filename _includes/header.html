@@ -11,11 +11,15 @@
 
     <nav class="site-nav">
       <div class="trigger">
+        {% if page.nav-class == 'main' %}
+        <a class="page-link" style="font-weight: bold">Data for:</a>
+        {% endif %}
         {% assign sorted_pages = site.pages | sort:"weight" %}
         {% for pg in sorted_pages %}
           {% assign pg_url=pg.url|replace:'index.html','' %}
           {% if pg.url contains '/page' %}
-          {% elsif pg.nav_title %}
+          {% elsif pg.nav-title %}
+
             {% assign class="" %}
             {% if pg_url == '/' %}
               {% if pg_url == page_url %}
@@ -24,7 +28,19 @@
             {% elsif page_url contains pg_url %}
               {% assign class=" selected" %}
             {% endif %}
-            <a class="page-link{{ class }}" href="{{ pg.url | replace:'index.html','' | prepend: site.baseurl }}">{{ pg.nav_title }}</a>
+
+            {% assign show-link='False' %}
+            {% if pg.nav-class %}
+              {% if pg.nav-class contains page.nav-class %}
+                {% assign show-link='True' %}
+              {% endif %}
+            {% elsif page.nav-class == 'main' %}
+              {% assign show-link='True' %}
+            {% endif %}
+
+            {% if show-link == 'True' %}
+            <a class="page-link{{ class }}" href="{{ pg.url | replace:'index.html','' | prepend: site.baseurl }}">{{ pg.nav-title }}</a>
+            {% endif %}
           {% endif %}
         {% endfor %}
       </div>

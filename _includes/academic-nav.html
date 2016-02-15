@@ -2,8 +2,7 @@
         {% assign sorted_pages = site.pages | sort:"weight" %}
         {% for pg in sorted_pages %}
           {% assign pg_url=pg.url|replace:'index.html','' %}
-          {% if pg.url contains '/page' %}
-          {% elsif pg.nav_title %}
+          {% if pg.nav-title and pg.url contains '/academia'%}
             {% assign class="" %}
             {% if pg_url == '/' %}
               {% if pg_url == page_url %}
@@ -12,7 +11,7 @@
             {% elsif page_url contains pg_url %}
               {% assign class=" selected" %}
             {% endif %}
-            <a class="page-link{{ class }}" href="{{ pg.url | replace:'index.html','' | prepend: site.baseurl }}">{{ pg.nav_title }}</a>
+            <a class="page-link{{ class }}" href="{{ pg.url | replace:'index.html','' | prepend: site.baseurl }}">{{ pg.nav-title }}</a>
           {% endif %}
         {% endfor %}
       </div>

@@ -1,8 +1,6 @@
 # Site settings
 title: Ben Cipollini
-tagline: All computation, all the time.
-description: > # this means to ignore newlines until "baseurl:"
-  Doing science out in the open.
+tagline: Data science for change.
 baseurl: ''
 url:  # the base hostname & protocol for your site
 

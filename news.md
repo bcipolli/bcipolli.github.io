@@ -3,6 +3,7 @@ layout: page
 permalink: /
 pub-type: news
 document-class: news
+nav-class: main
 title: news
 description: <p>Recent news &amp; tweets from San Diego.</p>
 weight: 0
