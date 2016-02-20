@@ -48,7 +48,7 @@ header-bg: /img/bgs/fireworks.jpg
 <p>
   Outside of academia, I particularly enjoy photography. I post photos
   to <a href="https://plus.google.com/+BenCipolliniSD/photos">Google Plus</a>,
-  <a href="http://www.redbubble.com/people/quickowl">Redbubble</a>,
+  <a href="http://www.redbubble.com/people/{{ site.redbubble_username }}">Redbubble</a>,
   and <a href="http://ben-cipollini.artistwebsites.com/">Fine Art America</a>.
   I also care a lot about secular ethics, spirituality, and morality,
   and hope to write about it in the future.
