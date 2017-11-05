@@ -21,9 +21,7 @@ weight: 5
 
 <p>
   We are using <a href="https://piazza.com/class/igiuh1qf14a2al">Piazza</a> to work as a group and to keep in touch.
-  We are using Google Docs to create <a href="">project plans</a>,
-  <a href="">log our working hours</a>,
-  and to <a href="">keep meeting notes</a>.
+  We are using Google Docs to create project plans, log our working hours, and to keep meeting notes.
 </p>
 
 <p>

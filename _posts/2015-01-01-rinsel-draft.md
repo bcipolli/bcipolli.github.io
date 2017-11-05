@@ -25,6 +25,6 @@ date: 2015-11-01
 <p>
     Representative posters and talks:
     <ul>
-        <li>SfN 2014 (<a href="http://cseweb.ucsd.edu/~bcipolli/docs/posters/Cipollini_Cottrell_SfN_2014_Ringo.pdf">Poster</a>)</li>
+        <li>SfN 2014 (<a href="{{ 'docs/posters/Cipollini_Cottrell_SfN_2014_Ringo.pdf' | prepend:site.resources_baseurl }}">Poster</a>)</li>
     </ul>
 </p>

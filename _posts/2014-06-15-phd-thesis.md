@@ -8,11 +8,11 @@ description: "Left and right hemispheres process visual information differently.
 <p>
     I completed my dissertation defense in May, 2014.
     <ul>
-        <li>Thesis (<a href="docs/papers/Cipollini_Thesis_2014.pdf">PDF</a>, <a href="http://cseweb.ucsd.edu/~bcipolli/docs/papers/Cipollini_Thesis_Precis.pdf">precis</a>)</li>
+        <li>Thesis (<a href="docs/papers/Cipollini_Thesis_2014.pdf">PDF</a>, <a href="{{ 'docs/papers/Cipollini_Thesis_Precis.pdf' | prepend:site.resources_baseurl }}">precis</a>)</li>
         <li>
             Dissertation Defense
             (<a href="https://www.youtube.com/watch?v=O52eRLiGLB8">video</a>,
-            <a href="http://cseweb.ucsd.edu/~bcipolli/docs/presentations/Cipollini_Defense_2014_Slides.pdf">slides</a>)
+            <a href="{{ 'docs/presentations/Cipollini_Defense_2014_Slides.pdf' | prepend:site.resources_baseurl }}">slides</a>)
         </li>
     </ul>
 </p>

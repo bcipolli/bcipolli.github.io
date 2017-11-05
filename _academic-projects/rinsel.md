@@ -48,6 +48,6 @@ weight: 2
 <p>
     Representative posters and talks:
     <ul>
-        <li>SfN 2014 (<a href="http://cseweb.ucsd.edu/~bcipolli/docs/posters/Cipollini_Cottrell_SfN_2014_Rinsel.pdf">Poster</a>)</li>
+        <li>SfN 2014 (<a href="{{ 'docs/posters/Cipollini_Cottrell_SfN_2014_Rinsel.pdf' | prepend:site.resources_baseurl }}">Poster</a>)</li>
     </ul>
 </p>

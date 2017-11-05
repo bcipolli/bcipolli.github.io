@@ -14,16 +14,17 @@ weight: 1
 <img class="col one right" src="{{ '/img/logos/classy.png' | prepend:site.baseurl }}">
 
 <p>
-  <a class="title" href="http://www.classy.org/">Classy</a> engages users for non-profit fundraising through their <a href="">fundraising platform</a> and the <a href="https://www.classy.org/collaborative">annual Collaborative</a>, ending in the <a href="">Classy Awards</a>.
-</p>
-
-
-<p>
-  As of March 1, I will be the engineering manager for <a href="https://www.classyawards.org/classy-awards/progress">Classy's new data platform, called Progress</a>. Progress is a unique database about the what, where, why ,and how of non-profit problem-solving. We are not exactly sure of what Progress will become, but we are certain it will help re-define how people engage with non-profits.
+  <a class="title" href="http://www.classy.org/">Classy</a> engages users for non-profit fundraising through their <a href="https://www.classy.org/crowdfunding-campaigns">fundraising platform</a> and the <a href="https://www.classy.org/collaborative">annual Collaborative</a>, ending in the <a href="https://www.classy.org/collaborative/awards-ceremony">Classy Awards</a>.
 </p>
 
 <p>
-  Through this work, we were able to extend Khan Academy's work to the populations that needed it the most--those with few teacher and education resources also have little streaming-capable Internet connectivity. I led a partnership with the <a href="">Idaho Department of Correction</a> and <a href="">Northern Nazarene University</a> to <a href="">deploy KA Lite to prisoners</a>--who love the ability to work at their own speed and without judgment or worry for their current level. I also led a partnership with <a href="">Stanford Medicine</a> to develop and deploy a Khan Academy / Stanford Medicine hybrid system that we <a href="">deployed in Gitwe, Rwanda</a> to the first private medical school in the country.
+  I am an engineering manager at Classy, where I founded the "Data Insights" team. We use data science to understand non-profit fundraising, and to build next-generation tools within the fundraising product.
+  We publish results from these to Classy's <a href="https://www.classy.org/blog/">marketing</a> and <a href="https://devblog.classy.org/">developer</a> blogs.
+</p>
+
+<p>
+  I joined Classy in 2016 as the engineering manager for <a href="https://progress.classy.org/">Progress</a>,
+  Classy's effort to help non-profits express their social impact through storytelling as well as success metrics grounded in well-defined problem and strategy information. This framework is used for the <a href="https://www.classy.org/collaborative/awards-ceremony">Classy Awards</a>, an event for recognizing innovative and effective non-profit programs.
 </p>
 
 

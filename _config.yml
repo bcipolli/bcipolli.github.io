@@ -7,7 +7,7 @@ url:  # the base hostname & protocol for your site
 gems: [jekyll-paginate]
 
 # Contact settings
-email: bcipolli@ucsd.edu
+email: bcipollini@classy.org
 twitter_username: mrquickowl
 tumblr_username: mrquickowl
 github_username:  bcipolli
@@ -15,9 +15,9 @@ linkedin_url: https://www.linkedin.com/in/dr-ben-cipollini-217709b
 facebook_username: bcipolli
 researchgate_username: Ben_Cipollini
 redbubble_username: quickowl
-googlescholar_url: folio
-googleplus_url: folio
-wordpress_url: folio
+googlescholar_url: https://scholar.google.com/citations?user=US7qORoAAAAJ
+googleplus_url: https://plus.google.com/+BenCipolliniSD
+resources_baseurl: http://cseweb.ucsd.edu/~bcipolli/
 
 # Build settings
 markdown: kramdown
