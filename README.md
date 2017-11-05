@@ -1,6 +1,6 @@
 # Ben Cipollini's website.
 
-This website was built from the `*folio` Jekyll theme (<a href="http://liabogoev.com/-folio">live *folio demo</a>). Jekyll is a Ruby-on-rails gem that Github supports; if you create a repository called `[your-username].github.io` and commit a Jekyll project to the `master` branch, Github will build the website for you and host it--cool!
+This website was built from the `&ast;folio` Jekyll theme (<a href="http://liabogoev.com/-folio">live &ast;folio demo</a>). Jekyll is a Ruby-on-rails gem that Github supports; if you create a repository called `[your-username].github.io` and commit a Jekyll project to the `master` branch, Github will build the website for you and host it--cool!
 
 
 #### Install Jekyll and RubyGems
