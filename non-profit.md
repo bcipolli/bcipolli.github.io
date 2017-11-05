@@ -14,7 +14,7 @@ weight: 1
 <img class="col one right" src="{{ '/img/logos/classy.png' | prepend:site.baseurl }}">
 
 <p>
-  <a class="title" href="http://www.classy.org/">Classy</a> engages users for non-profit fundraising through their <a href="">fundraising platform</a> and the <a href="https://www.classy.org/collaborative">annual Collaborative</a>, ending in the <a href="">Classy Awards</a>.
+  <a class="title" href="http://www.classy.org/">Classy</a> engages users for non-profit fundraising through their <a href="https://www.classy.org/crowdfunding-campaigns">fundraising platform</a> and the <a href="https://www.classy.org/collaborative">annual Collaborative</a>, ending in the <a href="https://www.classy.org/collaborative/awards-ceremony">Classy Awards</a>.
 </p>
 
 
@@ -23,7 +23,7 @@ weight: 1
 </p>
 
 <p>
-  Through this work, we were able to extend Khan Academy's work to the populations that needed it the most--those with few teacher and education resources also have little streaming-capable Internet connectivity. I led a partnership with the <a href="">Idaho Department of Correction</a> and <a href="">Northern Nazarene University</a> to <a href="">deploy KA Lite to prisoners</a>--who love the ability to work at their own speed and without judgment or worry for their current level. I also led a partnership with <a href="">Stanford Medicine</a> to develop and deploy a Khan Academy / Stanford Medicine hybrid system that we <a href="">deployed in Gitwe, Rwanda</a> to the first private medical school in the country.
+  Through this work, we were able to extend Khan Academy's work to the populations that needed it the most--those with few teacher and education resources also have little streaming-capable Internet connectivity. I led a partnership with the <a href="https://www.idoc.idaho.gov/">Idaho Department of Correction</a> and <a href="https://www.nnu.edu/">Northern Nazarene University</a> to <a href="https://blog.learningequality.org/ka-lite-brings-offline-education-to-idaho-department-of-corrections-90f7a5f1bf4b">deploy KA Lite to prisoners</a>--who love the ability to work at their own speed and without judgment or worry for their current level. I also led a partnership with <a href="http://med.stanford.edu/">Stanford Medicine</a> to develop and deploy a Khan Academy / Stanford Medicine hybrid system that we <a href="https://medium.com/@mrquickowl/videos-for-gitwe-a1768dfc321b">deployed in Gitwe, Rwanda</a> to the first private medical school in the country.
 </p>
 
 

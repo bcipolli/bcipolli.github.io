@@ -15,7 +15,9 @@ weight: 3
 </p>
 
 <p>
-  I volunteer for Code for America's <a href="http://www.opensandiego.org/">San Diego Brigade</a>. I am the project lead for two projects; one on campaign funding disclosure and one on city-wide  notifications from <a href="http://www.sandiego.gov/development-services/">Development Services</a>.
+  In 2016, I volunteered for Code for America's <a href="http://www.opensandiego.org/">San Diego Brigade</a>. I was the project lead for two projects; one on
+  <a href="http://www.opendisclosure.io/">campaign funding disclosure</a>
+  and one on city-wide notifications from <a href="http://www.sandiego.gov/development-services/">Development Services</a>.
 </p>
 
 <a name="opendisclosure"></a>
@@ -28,7 +30,7 @@ weight: 3
 </p>
 
 <p>
-  I am working with the San Diego, San Francisco and Oakland Code for America brigades to make these connections for city (and hopefully county) elections in our cities. Our <a class="title" href="">"Open Disclosure" project</a> is <a href="">open-source</a> and extensible to any city in California.
+  I worked with the San Diego, San Francisco and Oakland Code for America brigades to make these connections for city (and hopefully county) elections in our cities. Our <a class="title" href="https://github.com/opensandiego/opendisclosure">"Open Disclosure" project</a> is open source and extensible to any city in California.
 </p>
 
 
@@ -39,7 +41,7 @@ weight: 3
 <img class="col one right" src="{{ '/img/logos/citygram.png' | prepend:site.baseurl }}">
 
 <p>
-  Wouldn't it be great if you could sign up for email or text alerts for whenever something big is happening in your area? There's an app for that--<a href="">Citygram</a> allows you to sign up for city-related notifications for any location in your city.
+  Wouldn't it be great if you could sign up for email or text alerts for whenever something big is happening in your area? There's an app for that--<a href="https://www.citygram.org/">Citygram</a> allows you to sign up for city-related notifications for any location in your city.
 </p>
 
 <p>

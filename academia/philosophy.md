@@ -30,7 +30,7 @@ All data and all analyses <i>must be open</i>. Simply making them available is n
 <p>
 When I started doing cognitive modeling of with <a href="http://cseweb.ucsd.edu/~gary/">Gary Cottrell</a> and <a href="http://web.hku.hk/~jhsiao/">Janet Hsiao</a> in 2008, I immediately noticed: in science, there is much more data than there are explanations. Instead of explaining all of the data, most scientists focus on collecting new data. Given the data deluge and frequent lack of rigorous explanations for the data, I vowed never to collect data.</p>
 
-<p>I spend my time building models that account for as much of the data as possible. This is hard--scientists are <a href="">notorious for their poor data sharing practices</a>. I have been <a href="http://www.dodtracker.com/">scraping data since I founded DODTracker.com</a>; in my research, I've <a href="">scraped figures from papers to get data</a> and <a href="{{ '/academia/projects/nidata/' | prepend: site.baseurl }}">helped build public access to neuroscience datasets</a> to make this all happen.
+<p>I spend my time building models that account for as much of the data as possible. This is hard--scientists are <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4728080/">notorious for their poor data sharing practices</a>. I have been <a href="http://www.dodtracker.com/">scraping data since I founded DODTracker.com</a>; in my research, I've <a href="http://bcipolli.github.io/academia/projects/rinsel/">scraped figures from papers to get data</a> and <a href="{{ '/academia/projects/nidata/' | prepend: site.baseurl }}">helped build public access to neuroscience datasets</a> to make this all happen.
 </p>
 
 <p>
