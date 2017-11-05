@@ -30,17 +30,3 @@ weight: 4
 <p>
   I was able to <a href="https://techcrunch.com/2010/04/28/internet-brands-snaps-up-experthub-network/">sell the website to Internet Brands</a>, who ran it for a few years before it fell into disrepair and was closed. Such is the life when scraping HTML from 500+ deals--maintenance is key!
 </p>
-
-
-<a name="quickowl"></a>
-<h4>New Ideas</h4>
-
-<p>
-  I always have a number of ideas for start-ups, but never enough time to work on them or work with others to launch them. These include:
-
-  <ul>
-    <li><b>Online dating</b> - I have surveyed over 100 people, and I can say definitively: we're doing it all wrong. I have an idea on how to do it right, get a large user-base, and make good money off of it.</li>
-    <li><b>Services</b> - There are few good ways to find services. I have some ideas on how to build a system and get traction on it.</li>
-    <li><b>Religion</b> - Religions have some of the best business models out there,  often do social good, and help organize their constituents and provide a platform for others to grasp more easily. I can think of a few religions out there in need of such organization; I'm looking for partners to build a religion as a start-up!</li>
-  </ul>
-</p>
