@@ -18,6 +18,7 @@ redbubble_username: quickowl
 googlescholar_url: folio
 googleplus_url: folio
 wordpress_url: folio
+resources_baseurl: http://cseweb.ucsd.edu/~bcipolli/
 
 # Build settings
 markdown: kramdown

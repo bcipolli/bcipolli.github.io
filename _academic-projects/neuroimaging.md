@@ -29,6 +29,6 @@ in number or intensity of activated voxels)
 <p>
     Representative posters and talks:
     <ul>
-        <li>SfN 2015 (<a href="http://cseweb.ucsd.edu/~bcipolli/docs/posters/SfN2015/">Poster</a>)</li>
+        <li>SfN 2015 (<a href="{{ 'docs/posters/SfN2015/' | prepend:site.resources_baseurl }}">Poster</a>)</li>
     </ul>
 </p>
