@@ -13,7 +13,7 @@ header-bg: /img/bgs/fireworks.jpg
 
 
 <p>
-  My name is Ben Cipollini; I'm an engineering manager of the data science team at
+  My name is Ben Cipollini; I'm the director of data science at
   <a href="http://www.classy.org/">Classy</a>. I previously was a post-doctoral scholar
   in the <a href="http://www.cse.ucsd.edu/">Computer Science &amp; Engineering Department</a>
   at <a href="http://www.ucsd.edu/">UC San Diego</a>, after finishing my Ph.D in
