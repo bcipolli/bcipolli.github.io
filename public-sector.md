@@ -5,6 +5,7 @@ nav-title: government
 title: data for government
 description: Working to connect people with their governments more effectively.
 permalink: /government/
+type: data
 weight: 3
 ---
 

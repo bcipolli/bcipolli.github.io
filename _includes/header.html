@@ -11,10 +11,15 @@
 
     <nav class="site-nav">
       <div class="trigger">
-        {% if page.nav-class == 'main' %}
-        <a class="page-link" style="font-weight: bold">Data for:</a>
-        {% endif %}
-        {% assign sorted_pages = site.pages | sort:"weight" %}
+        {% assign page_types = site.pages | group_by: "type" | sort: "name" %}
+        {% for grp in page_types %}
+
+            {% if page.nav-class == 'main' and grp.name != "" %}
+            <a class="page-link" style="font-weight: bold; hover: none">{% if grp.name == "info" %}About:{% else %}{{grp.name | capitalize}} for:{% endif %}</a>
+            {% endif %}
+
+        {% assign sorted_pages = grp.items | sort: "weight" %}
+
         {% for pg in sorted_pages %}
           {% assign pg_url=pg.url|replace:'index.html','' %}
           {% if pg.url contains '/page' %}
@@ -42,6 +47,7 @@
             <a class="page-link{{ class }}" href="{{ pg.url | replace:'index.html','' | prepend: site.baseurl }}">{{ pg.nav-title }}</a>
             {% endif %}
           {% endif %}
+        {% endfor %}
         {% endfor %}
       </div>
     </nav>

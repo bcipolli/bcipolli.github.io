@@ -5,6 +5,7 @@ nav-title: $$$
 title: data for $$$
 description: Using data to make money--and do even more good!
 permalink: /start-ups/
+type: data
 weight: 4
 ---
 

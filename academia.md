@@ -4,6 +4,7 @@ nav-class: main
 nav-title: half-brains
 title: academic research
 permalink: /academia/
+type: data
 weight: 2
 ---
 
