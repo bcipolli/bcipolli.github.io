@@ -3,8 +3,8 @@ layout: page
 nav-class: main
 nav-title: non-profit
 title: data for good
-description: Using data science in the non-profit space
-permalink: /non-profit/
+description: Using data science in the social sector, for non-profits
+permalink: /social-sector/
 type: data
 weight: 1
 ---

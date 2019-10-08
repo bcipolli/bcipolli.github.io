@@ -4,14 +4,14 @@ permalink: /
 pub-type: news
 document-class: news
 nav-class: main
-title: news
-description: Recent news &amp; tweets from San Diego.
+title: news &amp; blog
+description: Recent news &amp; tweets from ... all the things.
 weight: 0
 ---
 
 <div style="width:100%">
     <div style="width: 62%; float: left; padding-right: 7%">
-        <p>Follow links above for info about my research and blogging on open science, open-source programming, and hemispheric lateralization.</p>
+        <p>Follow links above for info about my thoughts and work across the private, public, and social sectors!</p>
         {% assign posts=site.news|sort:"date"|reverse %}
         {% include publications-list.html %}
     </div>

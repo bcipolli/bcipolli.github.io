@@ -4,7 +4,7 @@ nav-class: main
 nav-title: government
 title: data for government
 description: Working to connect people with their governments more effectively.
-permalink: /government/
+permalink: /public-sector/
 type: data
 weight: 3
 ---
