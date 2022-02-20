@@ -14,7 +14,7 @@ weight: 1
 </p>
 
 <p>
-  I feel confident that I know what data science is. I've <a href="/private-sector/#classy">built a data science department at a small company</a>, and had to articulate what data science is (and is not!) to company leaders. Now, I am working as a <a href="/private-sector/#facebook">data science lead at a very large company</a>, and see how roles and responsibilities are being divvy'd up. And before, during, and after all of this, I have participated in the <a href="#disciplines">data science stack</a> at essentially all levels.
+  I feel confident that I know what data science is. I've <a href="/social-sector/#classy">built a data science department at a small company</a>, and had to articulate what data science is (and is not!) to company leaders. Now, I am working as a <a href="/private-sector/#facebook">data science lead at a very large company</a>, and see how roles and responsibilities are being divvy'd up. And before, during, and after all of this, I have participated in the <a href="#disciplines">data science stack</a> at essentially all levels.
 </p>
 
 <p>
