@@ -3,7 +3,7 @@ layout: page
 nav-class: main
 nav-title: me
 title: All about me
-description: Quick links - <a href="/docs/Cipollini_CV_2016-02-15.pdf">Academic CV</a> and <a href="/docs/Ben Cipollini Resume 2022-02.pdf">Resume</a> (updated 2022-02-15)
+description: Quick links - <a href="/docs/Cipollini_CV_2016-02-15.pdf">Academic CV</a> and <a href="/docs/Ben Cipollini DS Leadership Resume 2022-05.pdf">Resume</a> (updated 2022-05-22)
 permalink: /about/
 weight: 6
 header-bg: /img/bgs/fireworks.jpg
